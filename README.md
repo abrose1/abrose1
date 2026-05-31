@@ -12,9 +12,11 @@ Below are my public projects. I have others that aren't, mostly because they con
 
 ## 🌍 [CarbonCoach](https://github.com/abrose1/CarbonCoach) · [Live](https://carboncoach.up.railway.app/) · [Post](https://lnkd.in/ew28SAhH)
 
-A conversational tool that calculates your personal carbon footprint, recommends personalized ways to reduce it, and searches 680 state and federal programs to surface financial incentives you may not know about (powered by the DSIRE federal database). Takes about 5 minutes and 15 messages to complete.
+AI has a real carbon cost — and as someone who cares about emissions, that's always in the back of my mind. But AI can also be an incredible tool for fighting climate change, and I think we should be using it that way rather than shying away from it. CarbonCoach is my attempt to put that argument to work.
 
-The thing I find interesting: each Carbon Coach conversation emits ~7.8g of CO₂. A user who installs a heat pump or solar panels based on a recommendation reduces their footprint by ~4,000,000g/year. One in every ~500,000 users following through makes the app net-positive on carbon. The math isn't as scary as you'd expect.
+It's a conversational tool that calculates your personal carbon footprint, recommends personalized ways to reduce it, and searches 680 state and federal programs to surface financial incentives you may not know about (powered by the DSIRE database). Takes about 5 minutes and 15 messages to complete.
+
+Each conversation emits ~7.8g of CO₂. A user who installs a heat pump or solar panels based on a recommendation reduces their footprint by ~4,000,000g/year. One in every ~500,000 users following through makes the app net-positive. The math makes me optimistic.
 
 Built with Claude as the conversational interface. Full-stack: Flask, PostgreSQL, state-specific EPA emission factors.
 
