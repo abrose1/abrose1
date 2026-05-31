@@ -32,6 +32,16 @@ Two connected projects born from the same weekend.
 
 ---
 
+## 📰 [AiNewsWatcher](https://github.com/abrose1/AiNewsWatcher)
+
+Sends me one well-chosen SMS per day to keep me current on the AI industry — leaders, labs, tools, concepts, and the people shaping where this is all going. If something genuinely big breaks, that takes over the daily text instead. Weekdays at 6:45pm, weekends at 1pm.
+
+As a PM in AI, staying fluent in the industry isn't optional. I built this because reading newsletters felt passive — having something scan, filter, and surface what actually matters is more useful. Claude picks the topic, Brave Search finds the freshest angle on it, and the whole thing lands as a clean SMS.
+
+`Python · Railway · Anthropic · Brave Search · Twilio · Postgres`
+
+---
+
 ## 📬 [ReleaseWatcherAgent](https://github.com/abrose1/release-watcher)
 
 A scheduled agent that monitors new releases across books, music, TV, and film — and texts me when something worth paying attention to comes out. Runs on Railway Cron, polls Spotify, TMDB, Google Books, and Brave Search, then uses Claude to judge whether a release actually fits my taste before firing a Twilio SMS.
