@@ -1,6 +1,8 @@
 # Hi, I'm Andrew
 
-Product Manager at Paradox AI, now a Workday company following a successful acquisition, where I own the Conversational Scheduling product line that schedules roughly ~10% of all interviews in the US. Wharton undergrad, CS minor, former climatetech VC. [LinkedIn](https://www.linkedin.com/in/andrew-brose/)
+Product Manager at Paradox AI, now a Workday company following a successful acquisition, where I own the Conversational Scheduling product line that schedules roughly ~10% of all interviews in the US. Wharton undergrad, CS minor. [LinkedIn](https://www.linkedin.com/in/andrew-brose/)
+
+I care about climate change, which is why several of these projects end up there — but it's a passion, not a career constraint.
 
 I build side projects because AI is enabling an incredible era of innovation, and the best way to understand it is to build with it. Also it has become easier to build my own personalized solution for most problems than try to find an existing one.
 
@@ -10,7 +12,7 @@ Below are my public projects. I have others that aren't, mostly because they con
 
 ---
 
-## 🌍 [CarbonCoach](https://github.com/abrose1/CarbonCoach)
+## 🌍 [CarbonCoach](https://github.com/abrose1/CarbonCoach) · [Live](https://carboncoach.up.railway.app/) · [Post](https://lnkd.in/ew28SAhH)
 
 A conversational tool that calculates your personal carbon footprint, recommends personalized ways to reduce it, and searches 680 state and federal programs to surface financial incentives you may not know about (powered by the DSIRE federal database). Takes about 5 minutes and 15 messages to complete.
 
@@ -18,7 +20,7 @@ The thing I find interesting: each Carbon Coach conversation emits ~7.8g of CO�
 
 Built with Claude as the conversational interface. Full-stack: Flask, PostgreSQL, state-specific EPA emission factors.
 
-`Python · Flask · Anthropic · PostgreSQL · HTML/CSS/JS`
+`Python · Flask · Claude · PostgreSQL · HTML/CSS/JS`
 
 ---
 
@@ -28,11 +30,11 @@ Sends me one well-chosen SMS per day to keep me current on the AI industry — l
 
 As a PM in AI, staying fluent in the industry isn't optional. I built this because reading newsletters felt passive and not personalized enough — having something scan, filter, and surface what actually matters to me is more useful. Claude picks the topic, Brave Search finds the freshest angle on it, and the whole thing lands as a clean SMS. The hardest part by far was getting Twilio to approve my 10DLC to let me text myself.
 
-`Python · Railway · Anthropic · Brave Search · Twilio · Postgres`
+`Python · Railway · Claude · Brave Search · Twilio · Postgres`
 
 ---
 
-## ⚡ [ProjectBurnout](https://github.com/abrose1/ProjectBurnout) + [mcp-server-eia](https://github.com/abrose1/mcp-server-eia)
+## ⚡ [ProjectBurnout](https://github.com/abrose1/ProjectBurnout) + [mcp-server-eia](https://github.com/abrose1/mcp-server-eia) · [Live](https://project-burnout.up.railway.app/) · [Post](https://lnkd.in/gaMgMxHY)
 
 Two connected projects born from the same weekend.
 
@@ -40,7 +42,7 @@ Two connected projects born from the same weekend.
 
 **mcp-server-eia** started as practice building MCPs. The dashboard didn't end up needing one, so I built it anyway as a standalone tool. It's not a thin API wrapper — it's 10 domain-aware tools for querying plant inventory, generation mix, fuel prices, AEO projections, and state CO₂ emissions in a shape AI agents can actually use reliably. Free to use if you're building AI tools for energy or climate.
 
-`Python · FastAPI · React · Anthropic · EIA API · MCP · Postgres`
+`Python · FastAPI · React · Claude · EIA API · MCP · Postgres`
 
 ---
 
@@ -52,7 +54,7 @@ It reads from a private **taste-profile** repo that knows my favorite authors an
 
 This one's purely for me — but it was a good excuse to build something with real multi-service architecture.
 
-`Python · Railway · Anthropic · Twilio · Spotify API · Postgres`
+`Python · Railway · Claude · Twilio · Spotify API · Postgres`
 
 ---
 
