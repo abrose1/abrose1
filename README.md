@@ -1,6 +1,8 @@
 # Hi, I'm Andrew
 
-PM at an AI company, former ClimateTech. I build side projects to stay close to the tech — and because the intersection of AI and climate is too interesting not to tinker with.
+Product Manager at Workday, where I own a Conversational AI product line that schedules roughly 5–10% of all interviews in the US. Wharton undergrad, CS minor, former climatetech VC. [LinkedIn](https://www.linkedin.com/in/andrew-brose/)
+
+I build side projects to stay close to the tech — and because the intersection of AI and climate is too interesting not to tinker with.
 
 My process: plan with Claude, build with Cursor, deploy until it actually works. I went from zero idea to a deployed product in 20 hours on one of these. That still feels insane to me.
 
