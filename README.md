@@ -20,6 +20,16 @@ Built with Claude as the conversational interface. Full-stack: Flask, PostgreSQL
 
 ---
 
+## 📰 [AiNewsWatcher](https://github.com/abrose1/AiNewsWatcher)
+
+Sends me one well-chosen SMS per day to keep me current on the AI industry — leaders, labs, tools, concepts, and the people shaping where this is all going. If something genuinely big breaks, that takes over the daily text instead. Weekdays at 6:45pm, weekends at 1pm.
+
+As a PM in AI, staying fluent in the industry isn't optional. I built this because reading newsletters felt passive — having something scan, filter, and surface what actually matters is more useful. Claude picks the topic, Brave Search finds the freshest angle on it, and the whole thing lands as a clean SMS.
+
+`Python · Railway · Anthropic · Brave Search · Twilio · Postgres`
+
+---
+
 ## ⚡ [ProjectBurnout](https://github.com/abrose1/ProjectBurnout) + [mcp-server-eia](https://github.com/abrose1/mcp-server-eia)
 
 Two connected projects born from the same weekend.
@@ -29,16 +39,6 @@ Two connected projects born from the same weekend.
 **mcp-server-eia** started as practice building MCPs. The dashboard didn't end up needing one, so I built it anyway as a standalone tool. It's not a thin API wrapper — it's 10 domain-aware tools for querying plant inventory, generation mix, fuel prices, AEO projections, and state CO₂ emissions in a shape AI agents can actually use reliably. Free to use if you're building AI tools for energy or climate.
 
 `Python · FastAPI · React · Anthropic · EIA API · MCP · Postgres`
-
----
-
-## 📰 [AiNewsWatcher](https://github.com/abrose1/AiNewsWatcher)
-
-Sends me one well-chosen SMS per day to keep me current on the AI industry — leaders, labs, tools, concepts, and the people shaping where this is all going. If something genuinely big breaks, that takes over the daily text instead. Weekdays at 6:45pm, weekends at 1pm.
-
-As a PM in AI, staying fluent in the industry isn't optional. I built this because reading newsletters felt passive — having something scan, filter, and surface what actually matters is more useful. Claude picks the topic, Brave Search finds the freshest angle on it, and the whole thing lands as a clean SMS.
-
-`Python · Railway · Anthropic · Brave Search · Twilio · Postgres`
 
 ---
 
