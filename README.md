@@ -1,18 +1,18 @@
 # Hi, I'm Andrew
 
-Product Manager at Workday, where I own a Conversational AI product line that schedules roughly 5–10% of all interviews in the US. Wharton undergrad, CS minor, former climatetech VC. [LinkedIn](https://www.linkedin.com/in/andrew-brose/)
+Product Manager at Paradox AI, now a Workday company following a successful acquisition, where I own the Conversational Scheduling product line that schedules roughly ~10% of all interviews in the US. Wharton undergrad, CS minor, former climatetech VC. [LinkedIn](https://www.linkedin.com/in/andrew-brose/)
 
-I build side projects to stay close to the tech — and because the intersection of AI and climate is too interesting not to tinker with.
+I build side projects because AI is enabling an incredible era of innovation, and the best way to understand it is to build with it. Also it has become easier to build my own personalized solution for most problems than try to find an existing one.
 
-My process: plan with Claude, build with Cursor, deploy until it actually works. I went from zero idea to a deployed product in 20 hours on one of these. That still feels insane to me.
+I generally brainstorm with Claude then build with Cursor, but I try to shake it up every project to keep learning.
 
-Below are my public projects. I have others that aren't.
+Below are my public projects. I have others that aren't, mostly because they contain my personal data.
 
 ---
 
 ## 🌍 [CarbonCoach](https://github.com/abrose1/CarbonCoach)
 
-A conversational tool that calculates your personal carbon footprint, recommends personalized ways to reduce it, and searches 680 state and federal programs to surface financial incentives you may not know about (powered by the DSIRE database). Takes about 5 minutes and 15 messages to complete.
+A conversational tool that calculates your personal carbon footprint, recommends personalized ways to reduce it, and searches 680 state and federal programs to surface financial incentives you may not know about (powered by the DSIRE federal database). Takes about 5 minutes and 15 messages to complete.
 
 The thing I find interesting: each Carbon Coach conversation emits ~7.8g of CO₂. A user who installs a heat pump or solar panels based on a recommendation reduces their footprint by ~4,000,000g/year. One in every ~500,000 users following through makes the app net-positive on carbon. The math isn't as scary as you'd expect.
 
@@ -24,9 +24,9 @@ Built with Claude as the conversational interface. Full-stack: Flask, PostgreSQL
 
 ## 📰 [AiNewsWatcher](https://github.com/abrose1/AiNewsWatcher)
 
-Sends me one well-chosen SMS per day to keep me current on the AI industry — leaders, labs, tools, concepts, and the people shaping where this is all going. If something genuinely big breaks, that takes over the daily text instead. Weekdays at 6:45pm, weekends at 1pm.
+Sends me one well-chosen SMS per day to keep me current on the AI industry — leaders, labs, tools, concepts, and the people shaping where this is all going. If something genuinely big breaks, that takes over the daily text instead.
 
-As a PM in AI, staying fluent in the industry isn't optional. I built this because reading newsletters felt passive — having something scan, filter, and surface what actually matters is more useful. Claude picks the topic, Brave Search finds the freshest angle on it, and the whole thing lands as a clean SMS.
+As a PM in AI, staying fluent in the industry isn't optional. I built this because reading newsletters felt passive and not personalized enough — having something scan, filter, and surface what actually matters to me is more useful. Claude picks the topic, Brave Search finds the freshest angle on it, and the whole thing lands as a clean SMS. The hardest part by far was getting Twilio to approve my 10DLC to let me text myself.
 
 `Python · Railway · Anthropic · Brave Search · Twilio · Postgres`
 
@@ -36,7 +36,7 @@ As a PM in AI, staying fluent in the industry isn't optional. I built this becau
 
 Two connected projects born from the same weekend.
 
-**Project Burnout** is a stranded asset dashboard tracking 100+ MW coal and gas plants across the U.S. Many are projected to operate at a loss for years after cheaper renewables should have replaced them — locked in by contracts, debt, and regulation. (And there are serious discussions about building *new* coal plants to power AI demand. That would be a mistake.) Burnout visualizes the gap between when each plant becomes unprofitable and when it actually shuts down, based on EIA filings and financial projections. Has a natural language query bar powered by Claude — I wanted to explore LLMs outside the chat interface, and I've found it genuinely useful.
+**Project Burnout** is a stranded asset dashboard tracking 100+ MW coal and gas plants across the U.S. Many are projected to operate at a loss for years after cheaper renewables should have replaced them — locked in by contracts, debt, and regulation. (And there are serious discussions about building *new* coal plants to power AI demand. That would be a very stupid move.) Burnout visualizes the gap between when each plant becomes unprofitable and when it actually shuts down, based on EIA filings and financial projections. Has a natural language query bar powered by Claude — I wanted to explore LLMs outside the chat interface, and I've found it genuinely useful.
 
 **mcp-server-eia** started as practice building MCPs. The dashboard didn't end up needing one, so I built it anyway as a standalone tool. It's not a thin API wrapper — it's 10 domain-aware tools for querying plant inventory, generation mix, fuel prices, AEO projections, and state CO₂ emissions in a shape AI agents can actually use reliably. Free to use if you're building AI tools for energy or climate.
 
@@ -48,7 +48,7 @@ Two connected projects born from the same weekend.
 
 A scheduled agent that monitors new releases across books, music, TV, and film — and texts me when something worth paying attention to comes out. Runs on Railway Cron, polls Spotify, TMDB, Google Books, and Brave Search, then uses Claude to judge whether a release actually fits my taste before firing a Twilio SMS.
 
-It reads from a private **taste-profile** repo that ingests my ranked bookshelves and Spotify history to score authors and artists into tiers. That repo isn't public (it has personal taste data in it), but the release-watcher README covers how the two-repo architecture works if you want to adapt it.
+It reads from a private **taste-profile** repo that knows my favorite authors and artists, based on photos of my bookshelves and Spotify history. That repo isn't public (it has personal taste data in it), but the release-watcher README covers how the two-repo architecture works if you want to adapt it.
 
 This one's purely for me — but it was a good excuse to build something with real multi-service architecture.
 
@@ -60,4 +60,4 @@ This one's purely for me — but it was a good excuse to build something with re
 
 I use Claude to think through architecture and tradeoffs before writing code. I build in Cursor. I'm a PM, not a full-time developer — these are side projects, and the commits reflect that. But they run, they're deployed, and I learned something real building each one.
 
-If you're working on AI for climate or energy, I'd genuinely love to talk.
+If you're working on AI or climate/sustainability, I'd genuinely love to talk. You can reach me on LinkedIn!
