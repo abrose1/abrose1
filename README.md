@@ -12,8 +12,8 @@ Below are my public projects. I have others that aren't, mostly because they con
 
 ## 🌍 [CarbonCoach](https://github.com/abrose1/CarbonCoach)
 
-**[→ Try it out](https://carboncoach.up.railway.app/)**
-[LinkedIn post](https://lnkd.in/ew28SAhH)
+**Try it out [here](https://carboncoach.up.railway.app/)**
+**Project summary on [LinkedIn post](https://lnkd.in/ew28SAhH)**
 
 AI has a real carbon cost — and as someone who cares about emissions, that's always in the back of my mind. But AI can also be an incredible tool for fighting climate change, and I think we should be using it that way rather than shying away from it. CarbonCoach is my attempt to put that argument to work.
 
@@ -39,8 +39,8 @@ As a PM in AI, staying fluent in the industry isn't optional. I built this becau
 
 ## ⚡ [ProjectBurnout](https://github.com/abrose1/ProjectBurnout) + [mcp-server-eia](https://github.com/abrose1/mcp-server-eia)
 
-**[→ Try it out](https://project-burnout.up.railway.app/)**
-[LinkedIn post](https://lnkd.in/gaMgMxHY)
+**Try it out [here](https://project-burnout.up.railway.app/)**
+**Project summary on [LinkedIn post](https://lnkd.in/gaMgMxHY)**
 
 Two connected projects born from the same weekend.
 
