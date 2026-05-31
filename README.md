@@ -2,8 +2,6 @@
 
 Product Manager at Paradox AI, now a Workday company following a successful acquisition, where I own the Conversational Scheduling product line that schedules roughly ~10% of all interviews in the US. Wharton undergrad, CS minor. [LinkedIn](https://www.linkedin.com/in/andrew-brose/)
 
-I care about climate change, which is why several of these projects end up there — but it's a passion, not a career constraint.
-
 I build side projects because AI is enabling an incredible era of innovation, and the best way to understand it is to build with it. Also it has become easier to build my own personalized solution for most problems than try to find an existing one.
 
 I generally brainstorm with Claude then build with Cursor, but I try to shake it up every project to keep learning.
