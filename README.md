@@ -68,6 +68,6 @@ This one's purely for me — but it was a good excuse to build something with re
 
 ## How I work
 
-I use Claude to think through architecture and tradeoffs before writing code. I build in Cursor. I'm a PM, not a full-time developer — these are side projects, and the commits reflect that. But they run, they're deployed, and I learned something real building each one.
+I use Claude to think through architecture and tradeoffs before writing code. I build in Cursor. I'm a PM, not a full-time developer — and these are only my personal side projects built in my free-time. I am genuinely proud of each one, all run and are fully deployed, and I've something new from every build.
 
 If you're working on AI or climate/sustainability, I'd genuinely love to talk. You can reach me on LinkedIn!
