@@ -16,7 +16,7 @@ Below are my public projects. I have others that aren't, mostly because they con
 
 **Project summary on [LinkedIn post](https://lnkd.in/ew28SAhH)**
 
-AI has a real carbon cost — and as someone who cares about emissions, that's always in the back of my mind. But AI can also be an incredible tool for fighting climate change, and I think we should be using it that way rather than shying away from it. CarbonCoach is my attempt to put that argument to work.
+AI has a real carbon cost and as someone who cares about emissions, that's always in the back of my mind. But AI can also be an incredible tool for fighting climate change, and I think we should be using it that way rather than shying away from it. CarbonCoach is my attempt to put that argument to work.
 
 It's a conversational tool that calculates your personal carbon footprint, recommends personalized ways to reduce it, and searches 680 state and federal programs to surface financial incentives you may not know about (powered by the DSIRE database). Takes about 5 minutes and 15 messages to complete.
 
@@ -30,9 +30,9 @@ Built with Claude as the conversational interface. Full-stack: Flask, PostgreSQL
 
 ## 📰 [AiNewsWatcher](https://github.com/abrose1/AiNewsWatcher)
 
-Sends me one well-chosen SMS per day to keep me current on the AI industry — leaders, labs, tools, concepts, and the people shaping where this is all going. If something genuinely big breaks, that takes over the daily text instead.
+Sends me one well-chosen SMS per day to keep me current on the AI industry: leaders, labs, tools, concepts, and the people shaping where this is all going. If something genuinely big breaks, that takes over the daily text instead.
 
-As a PM in AI, staying fluent in the industry isn't optional. I built this because reading newsletters felt passive and not personalized enough — having something scan, filter, and surface what actually matters to me is more useful. Claude picks the topic, Brave Search finds the freshest angle on it, and the whole thing lands as a clean SMS. The hardest part by far was getting Twilio to approve my 10DLC to let me text myself.
+As a PM in AI, staying fluent in the industry isn't optional. I built this because reading newsletters felt passive and not personalized enough. This tool will scan, filter, and surface what actually matters to me, and I can interact with it to find out more about the topics I'm interested in. Claude picks the topic, Brave Search finds the freshest angle on it, and the whole thing lands as a clean SMS. The hardest part by far was getting Twilio to approve my 10DLC to let me text myself.
 
 `Python · Railway · Claude · Brave Search · Twilio · Postgres`
 
@@ -46,9 +46,9 @@ As a PM in AI, staying fluent in the industry isn't optional. I built this becau
 
 Two connected projects born from the same weekend.
 
-**Project Burnout** is a stranded asset dashboard tracking 100+ MW coal and gas plants across the U.S. Many are projected to operate at a loss for years after cheaper renewables should have replaced them — locked in by contracts, debt, and regulation. (And there are serious discussions about building *new* coal plants to power AI demand. That would be a very stupid move.) Burnout visualizes the gap between when each plant becomes unprofitable and when it actually shuts down, based on EIA filings and financial projections. Has a natural language query bar powered by Claude — I wanted to explore LLMs outside the chat interface, and I've found it genuinely useful.
+**Project Burnout** is a stranded asset dashboard tracking 100+ MW coal and gas plants across the U.S. Many are projected to operate at a loss for years after cheaper renewables should have replaced them — locked in by contracts, debt, and regulation. (And there are serious discussions about building *new* coal plants to power AI demand. That would be a very stupid move.) Burnout visualizes the gap between when each plant becomes unprofitable and when it actually shuts down, based on EIA filings and financial projections. Has a natural language query bar powered by Claude because I wanted to explore LLMs outside the chat interface, and I've found it genuinely useful.
 
-**mcp-server-eia** started as practice building MCPs. The dashboard didn't end up needing one, so I built it anyway as a standalone tool. It's not a thin API wrapper — it's 10 domain-aware tools for querying plant inventory, generation mix, fuel prices, AEO projections, and state CO₂ emissions in a shape AI agents can actually use reliably. Free to use if you're building AI tools for energy or climate.
+**mcp-server-eia** started as practice building MCPs. The dashboard didn't end up needing one, so I built it anyway as a standalone tool. It's not a thin API wrapper. It's 10 domain-aware tools for querying plant inventory, generation mix, fuel prices, AEO projections, and state CO₂ emissions in a shape AI agents can actually use reliably. Free to use if you're building AI tools for energy or climate.
 
 `Python · FastAPI · React · Claude · EIA API · MCP · Postgres`
 
@@ -56,11 +56,11 @@ Two connected projects born from the same weekend.
 
 ## 📬 [ReleaseWatcherAgent](https://github.com/abrose1/release-watcher)
 
-A scheduled agent that monitors new releases across books, music, TV, and film — and texts me when something worth paying attention to comes out. Runs on Railway Cron, polls Spotify, TMDB, Google Books, and Brave Search, then uses Claude to judge whether a release actually fits my taste before firing a Twilio SMS.
+A scheduled agent that monitors new releases across books, music, TV, and film and texts me when something worth paying attention to comes out. Runs on Railway Cron, polls Spotify, TMDB, Google Books, and Brave Search, then uses Claude to judge whether a release actually fits my taste before firing a Twilio SMS.
 
 It reads from a private **taste-profile** repo that knows my favorite authors and artists, based on photos of my bookshelves and Spotify history. That repo isn't public (it has personal taste data in it), but the release-watcher README covers how the two-repo architecture works if you want to adapt it.
 
-This one's purely for me — but it was a good excuse to build something with real multi-service architecture.
+This one's purely for me, but it was a good excuse to build something with real multi-service architecture.
 
 `Python · Railway · Claude · Twilio · Spotify API · Postgres`
 
@@ -68,6 +68,6 @@ This one's purely for me — but it was a good excuse to build something with re
 
 ## How I work
 
-I use Claude to think through architecture and tradeoffs before writing code. I build in Cursor. I'm a PM, not a full-time developer — and these are only my personal side projects built in my free-time. I am genuinely proud of each one, all run and are fully deployed, and I've something new from every build.
+I use Claude to think through architecture and tradeoffs before writing code. I build in Cursor. I'm a PM, not a full-time developer and these are only my personal side projects built in my free-time. I am genuinely proud of each one, all run and are fully deployed, and I've something new from every build.
 
 If you're working on AI or climate/sustainability, I'd genuinely love to talk. You can reach me on LinkedIn!
